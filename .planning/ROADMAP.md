@@ -45,7 +45,11 @@ Plans:
   4. Running `git push` in a non-TTY or CI environment auto-aborts with a clear message instead of hanging
   5. Passing `--force` to `pusherg run` (via the hook) skips all checks and exits 0 immediately
   6. All scripts run even if one fails (no fail-fast) — the full results summary is shown before the prompt
-**Plans**: TBD
+**Plans:** 3 plans
+Plans:
+- [ ] 02-01-PLAN.md — Hook template and init command (TDD)
+- [ ] 02-02-PLAN.md — Run command orchestrating detect/run/report/prompt (TDD)
+- [ ] 02-03-PLAN.md — Commander CLI wiring and integration verification
 
 ### Phase 3: Management
 **Goal**: Users can inspect their hook configuration and cleanly remove it
@@ -74,6 +78,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete   | 2026-04-03 |
-| 2. Core | 0/? | Not started | - |
+| 2. Core | 0/3 | Planned | - |
 | 3. Management | 0/? | Not started | - |
 | 4. Polish | 0/? | Not started | - |
