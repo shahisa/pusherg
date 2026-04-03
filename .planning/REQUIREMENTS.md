@@ -46,18 +46,18 @@
 
 | REQ-ID | Phase | Status |
 |--------|-------|--------|
-| SETUP-01 | — | Pending |
-| SETUP-02 | — | Pending |
-| SETUP-03 | — | Pending |
-| DETECT-01 | — | Pending |
-| DETECT-02 | — | Pending |
-| DETECT-03 | — | Pending |
-| DETECT-04 | — | Pending |
-| OUTPUT-01 | — | Pending |
-| OUTPUT-02 | — | Pending |
-| OUTPUT-03 | — | Pending |
-| OUTPUT-04 | — | Pending |
-| OUTPUT-05 | — | Pending |
-| LIFECYCLE-01 | — | Pending |
-| LIFECYCLE-02 | — | Pending |
-| LIFECYCLE-03 | — | Pending |
+| SETUP-01 | Phase 2 | Pending |
+| SETUP-02 | Phase 1 | Pending |
+| SETUP-03 | Phase 1 | Pending |
+| DETECT-01 | Phase 1 | Pending |
+| DETECT-02 | Phase 1 | Pending |
+| DETECT-03 | Phase 2 | Pending |
+| DETECT-04 | Phase 2 | Pending |
+| OUTPUT-01 | Phase 2 | Pending |
+| OUTPUT-02 | Phase 2 | Pending |
+| OUTPUT-03 | Phase 4 | Pending |
+| OUTPUT-04 | Phase 2 | Pending |
+| OUTPUT-05 | Phase 2 | Pending |
+| LIFECYCLE-01 | Phase 3 | Pending |
+| LIFECYCLE-02 | Phase 3 | Pending |
+| LIFECYCLE-03 | Phase 2 | Pending |
