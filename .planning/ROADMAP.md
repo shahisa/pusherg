@@ -29,7 +29,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. `runner.js` executes a shell command via execa and returns a result object with exit code, stdout/stderr, and elapsed time in milliseconds
   4. `reporter.js` accepts a results array and prints colored pass/fail lines to stderr (not stdout) for each script
   5. `prompt.js` returns a boolean answer from an @inquirer/prompts confirm prompt, and returns false (abort) when not in a TTY environment
-**Plans**: TBD
+**Plans:** 2 plans
+Plans:
+- [ ] 01-01-PLAN.md — Scaffold project and build detect.js service module
+- [ ] 01-02-PLAN.md — Build runner.js, reporter.js, and prompt.js service modules
 
 ### Phase 2: Core
 **Goal**: Users can run `npx pusherg init` to install a working pre-push hook, and pushing triggers checks with colored output and an interactive prompt on failure
@@ -70,7 +73,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/? | Not started | - |
+| 1. Foundation | 0/2 | Planning complete | - |
 | 2. Core | 0/? | Not started | - |
 | 3. Management | 0/? | Not started | - |
 | 4. Polish | 0/? | Not started | - |
