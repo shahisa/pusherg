@@ -12,7 +12,7 @@ pusherg ships in four phases ordered by dependency: service modules first (no de
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation** - Project scaffolding and pure service modules (detect, runner, reporter, prompt)
+- [x] **Phase 1: Foundation** - Project scaffolding and pure service modules (detect, runner, reporter, prompt) (completed 2026-04-03)
 - [ ] **Phase 2: Core** - init command, hook installation, run command with TTY-safe interactive prompt
 - [ ] **Phase 3: Management** - status and remove commands
 - [ ] **Phase 4: Polish** - Spinners, error UX, README, npm publish prep
@@ -29,10 +29,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. `runner.js` executes a shell command via execa and returns a result object with exit code, stdout/stderr, and elapsed time in milliseconds
   4. `reporter.js` accepts a results array and prints colored pass/fail lines to stderr (not stdout) for each script
   5. `prompt.js` returns a boolean answer from an @inquirer/prompts confirm prompt, and returns false (abort) when not in a TTY environment
-**Plans:** 1/2 plans executed
+**Plans:** 2/2 plans complete
 Plans:
 - [x] 01-01-PLAN.md — Scaffold project and build detect.js service module
-- [ ] 01-02-PLAN.md — Build runner.js, reporter.js, and prompt.js service modules
+- [x] 01-02-PLAN.md — Build runner.js, reporter.js, and prompt.js service modules
 
 ### Phase 2: Core
 **Goal**: Users can run `npx pusherg init` to install a working pre-push hook, and pushing triggers checks with colored output and an interactive prompt on failure
@@ -73,7 +73,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 1/2 | In Progress|  |
+| 1. Foundation | 2/2 | Complete   | 2026-04-03 |
 | 2. Core | 0/? | Not started | - |
 | 3. Management | 0/? | Not started | - |
 | 4. Polish | 0/? | Not started | - |
