@@ -23,4 +23,9 @@ program
     await runCommand(options)
   })
 
-await program.parseAsync(process.argv)
+try {
+  await program.parseAsync(process.argv)
+} catch (err) {
+  process.stderr.write(`pusherg: ${err.message}\n`)
+  process.exit(1)
+}

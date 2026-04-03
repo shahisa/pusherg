@@ -9,7 +9,11 @@
   "bin": {
     "pusherg": "./bin/cli.js"
   },
-  "main": "./src/detect.js",
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ],
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest watch"
@@ -21,7 +25,11 @@
     "cli",
     "testing"
   ],
-  "author": "",
+  "author": "shahisa",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahisa/pusherg.git"
+  },
   "license": "MIT",
   "dependencies": {
     "@inquirer/prompts": "^7.10.1",
