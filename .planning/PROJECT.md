@@ -35,6 +35,21 @@ Zero-config auto-detection with interactive feedback UX — developers can prote
 - Watch mode for local dev — deferred to post-MVP
 - TypeScript project detection — deferred to post-MVP
 
+## Current Milestone: v1.0 MVP
+
+**Goal:** Ship a zero-config npx CLI tool that runs build/test checks before git push with interactive feedback.
+
+**Target features:**
+- One-command setup via `npx pusherg init`
+- Auto-detection of build, test, and lint scripts from package.json
+- Pre-push hook execution with build and test checks
+- Colored pass/fail output with timing information
+- Interactive "Push anyway?" prompt on failure
+- `--force` flag to skip checks
+- Package manager detection (npm, yarn, pnpm)
+- Clean uninstall via `pusherg remove`
+- Status command to show current configuration
+
 ## Context
 
 Existing pre-push tools (pre-push, prepush-hook, git-pre-push) are 5-10 years old, poorly maintained, have no interactive prompts, no colored output, no auto-detection, and require manual configuration. Husky is excellent but is a low-level primitive — users must wire everything up themselves.
@@ -78,4 +93,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: April 3, 2026 after initialization*
+*Last updated: April 3, 2026 — Milestone v1.0 MVP started*
