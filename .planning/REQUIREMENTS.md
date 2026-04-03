@@ -3,13 +3,13 @@
 ## Setup & Installation
 
 - [ ] **SETUP-01**: User can run `npx pusherg init` to install a pre-push git hook into their project
-- [ ] **SETUP-02**: pusherg detects the package manager (npm/yarn/pnpm) from lockfile presence
-- [ ] **SETUP-03**: Init command works without any configuration files or manual setup
+- [x] **SETUP-02**: pusherg detects the package manager (npm/yarn/pnpm) from lockfile presence
+- [x] **SETUP-03**: Init command works without any configuration files or manual setup
 
 ## Detection & Execution
 
-- [ ] **DETECT-01**: pusherg auto-detects build, test, and lint scripts from package.json
-- [ ] **DETECT-02**: pusherg silently skips scripts that don't exist in package.json
+- [x] **DETECT-01**: pusherg auto-detects build, test, and lint scripts from package.json
+- [x] **DETECT-02**: pusherg silently skips scripts that don't exist in package.json
 - [ ] **DETECT-03**: Pre-push hook runs all detected scripts before allowing git push
 - [ ] **DETECT-04**: pusherg runs all scripts and reports all failures (not fail-fast)
 
@@ -47,10 +47,10 @@
 | REQ-ID | Phase | Status |
 |--------|-------|--------|
 | SETUP-01 | Phase 2 | Pending |
-| SETUP-02 | Phase 1 | Pending |
-| SETUP-03 | Phase 1 | Pending |
-| DETECT-01 | Phase 1 | Pending |
-| DETECT-02 | Phase 1 | Pending |
+| SETUP-02 | Phase 1 | Complete |
+| SETUP-03 | Phase 1 | Complete |
+| DETECT-01 | Phase 1 | Complete |
+| DETECT-02 | Phase 1 | Complete |
 | DETECT-03 | Phase 2 | Pending |
 | DETECT-04 | Phase 2 | Pending |
 | OUTPUT-01 | Phase 2 | Pending |
