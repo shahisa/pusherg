@@ -2,6 +2,8 @@
 
 Zero-config pre-push CLI tool that runs your build and test checks before every `git push`.
 
+I hate pushing my code to a branch only to find out it failed to build or there were some tests failing that I didn't check beforehand. So I built this :)
+
 ## Quick Start
 
 ```bash
