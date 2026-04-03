@@ -1,0 +1,11 @@
+#!/bin/sh
+# pusherg pre-push hook
+# Runs checks before every push. Skip with: git push --no-verify
+
+# Restore terminal stdin so interactive prompts work in git hooks.
+# Silently skips if not in an interactive terminal (CI, IDE, etc).
+if [ -t 1 ]; then
+  exec < /dev/tty
+fi
+
+npx pusherg run
