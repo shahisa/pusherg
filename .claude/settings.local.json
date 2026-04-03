@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(gsd:new-milestone)",
+      "WebSearch",
+      "WebFetch(domain:deepwiki.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.pkgpulse.com)",
+      "WebFetch(domain:www.npmjs.com)",
+      "WebFetch(domain:typicode.github.io)",
+      "WebFetch(domain:www.javacodegeeks.com)",
+      "WebFetch(domain:vitest.dev)",
+      "Bash(node \"/Users/isa/Documents/Indie Hacker Projects/pusherg/.claude/get-shit-done/bin/gsd-tools.cjs\" init plan-phase 02-core)",
+      "Bash(node .claude/get-shit-done/bin/gsd-tools.cjs frontmatter validate .planning/phases/02-core/02-01-PLAN.md --schema plan)",
+      "Bash(node .claude/get-shit-done/bin/gsd-tools.cjs frontmatter validate .planning/phases/02-core/02-02-PLAN.md --schema plan)",
+      "Bash(node .claude/get-shit-done/bin/gsd-tools.cjs frontmatter validate .planning/phases/02-core/02-03-PLAN.md --schema plan)",
+      "Bash(node .claude/get-shit-done/bin/gsd-tools.cjs verify plan-structure .planning/phases/02-core/02-01-PLAN.md)",
+      "Bash(node .claude/get-shit-done/bin/gsd-tools.cjs verify plan-structure .planning/phases/02-core/02-02-PLAN.md)",
+      "Bash(node .claude/get-shit-done/bin/gsd-tools.cjs verify plan-structure .planning/phases/02-core/02-03-PLAN.md)",
+      "Bash(node .claude/get-shit-done/bin/gsd-tools.cjs commit \"docs\\(02-core\\): create phase plan\" --files .planning/phases/02-core/02-01-PLAN.md .planning/phases/02-core/02-02-PLAN.md .planning/phases/02-core/02-03-PLAN.md .planning/ROADMAP.md)"
+    ]
+  }
+}

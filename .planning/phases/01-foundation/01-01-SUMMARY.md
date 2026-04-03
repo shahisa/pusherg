@@ -124,6 +124,20 @@ None - no external service configuration required.
 - Phase 2 (commands) can begin immediately: init, run, status, remove commands need runner.js, reporter.js, prompt.js built first
 - No blockers
 
+## Self-Check: PASSED
+
+- FOUND: package.json
+- FOUND: vitest.config.js
+- FOUND: bin/cli.js
+- FOUND: src/detect.js
+- FOUND: test/detect.test.js
+- FOUND: LICENSE
+- FOUND: README.md
+- FOUND: node_modules/
+- FOUND commit: 57274e5 (scaffold)
+- FOUND commit: c4e7723 (test RED)
+- FOUND commit: 2dd6dc0 (feat GREEN)
+
 ---
 *Phase: 01-foundation*
 *Completed: 2026-04-03*
